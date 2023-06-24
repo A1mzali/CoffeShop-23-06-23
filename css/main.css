@@ -1,4 +1,5 @@
 @import 'reset.css';
+@import 'btn.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Righteous&family=Urbanist:wght@500;600&display=swap');
 
@@ -23,16 +24,6 @@ img {
 
 }
 
-button {
-  display: block;
-  border: none;
-  color: inherit;
-  font: inherit;
-  background-color: transparent;
-  transition: .4s;
-  cursor: pointer;
-}
-
 .container {
   max-width: 1340px;
   margin: 0 auto;
@@ -54,7 +45,7 @@ button {
 .header,
 .nav-main,
 .nav-main-list,
-.hesder-action{
+.header-action{
  display: flex;
  justify-content: space-between;
  align-items: center;
@@ -77,11 +68,49 @@ button {
   font-weight: 700;
 }
 
-.nav-main__link:hover {
+.nav-main__link:hover,
+.header-action__cart:hover,
+.header-action__search:hover {
   color: #C99E71;
 }
 
-.hesder-action{
- gap: 50px;
- margin-left: 48px;
-}
+.header-action{
+  gap: 50px;
+  margin-left: 48px;
+ }
+
+ .header__logo{
+  width: 72px;
+  height: 60px;
+ }
+
+ /* Banner */
+
+ #banner-section{
+  background: url(../img/baner.jpg) 50% 0%/cover;
+  background-repeat: no-repeat;
+ }
+
+ .banner{
+  display: flex;
+  justify-content: space-between;
+  padding: 147px 0 158px;
+ }
+
+ .banner-info{
+  max-width: 530px;
+ }
+
+ .banner__header{
+  font-family: 'Righteous',cursive;
+  font-size: 72px;
+  line-height: 94px;
+ }
+
+ .banner__text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 36px;
+  opacity: 0.8; 
+  margin: 32px 0 64px;
+ }

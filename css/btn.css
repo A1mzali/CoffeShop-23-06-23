@@ -1,0 +1,27 @@
+button {
+  display: block;
+  border: none;
+  color: inherit;
+  font: inherit;
+  background-color: transparent;
+  transition: .4s;
+  cursor: pointer;
+}
+.btn-primary{
+  padding: 20px 36px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: 'Inter', sans-serif;
+  background-color: #C99E71;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.btn-primary:hover {
+  background-color: #796f63;
+}
+
+.banner__btn{
+  padding: 24px 40px;
+ }
