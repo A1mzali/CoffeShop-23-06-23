@@ -31,6 +31,10 @@ img {
  
 }
 
+.section-main{
+  padding-bottom: 140px;
+}
+
 /* HEADER */
 
 .container-header{
@@ -149,4 +153,28 @@ img {
 
  .banner-video__btn:hover{
   color: #C99E71;
+ }
+
+ /* Features */
+ .features {
+  display: flex;
+  justify-content: space-between;
+  gap: 36px;
+  padding-top: 140px;
+ }
+
+ .features__item {
+  font-family: 'Righteous', cursive;
+  font-size: 24px;
+  line-height: 30px;
+ }
+
+ .features__item_dark {
+  margin-right: 12px;
+  color: #C99E71;
+ }
+
+ .features__img{
+  display: block;
+  margin-top: 24px;
  }
