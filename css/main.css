@@ -114,3 +114,39 @@ img {
   opacity: 0.8; 
   margin: 32px 0 64px;
  }
+
+ 
+.banner__btn{
+  padding: 24px 40px;
+ }
+
+ .banner-video__btn{
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  align-self: flex-end;
+  height: 110px;
+  text-transform: uppercase;
+ }
+
+ .banner-video__btn::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 50%;
+  width: 66px;
+  height: 66px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: url(../img/Vector.svg) 50%/14px 18px;
+  background-repeat: no-repeat;
+  transform: translateX(-50%);
+  
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+ }
+
+ .banner-video__btn:hover{
+  color: #C99E71;
+ }
