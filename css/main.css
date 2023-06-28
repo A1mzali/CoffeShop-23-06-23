@@ -31,6 +31,7 @@ img {
  
 }
 
+
 .section-main{
   padding-bottom: 140px;
 }
@@ -251,4 +252,66 @@ img {
 
 .history__text{
   width: 398px;
+}
+
+/* Popular */
+.popular-wrap{
+  display: flex;
+  justify-content: space-between;
+  gap: 36px;
+  margin-bottom: 56px;
+}
+
+.popular{
+  padding: 48px 48px 40px 48px;
+  background-color: #121315;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.popular__img{
+  display: block;
+  margin-bottom: 36px;
+}
+
+.rating{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  color: #C99E71;
+}
+
+.rating__title{
+  font-weight: 500;
+}
+
+.rating__list{
+  display: flex;
+  justify-content: space-between;
+  gap: 7px;
+}
+
+.rating__item {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.popular__title{
+  font-family: 'Righteous', cursive;
+  font-size: 24px;
+  line-height: 30px;
+  margin: 12px 0 20px;
+}
+
+.popular__price{
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.popular__price_dark {
+  font-family: 'Inter', sans-serif;
+  font: 18px;
+  color: #C99E71;
 }
