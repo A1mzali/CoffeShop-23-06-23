@@ -31,7 +31,6 @@ img {
  
 }
 
-
 .section-main{
   padding-bottom: 140px;
 }
@@ -52,7 +51,6 @@ img {
   line-height: 62.4px;
   text-align: center;
   margin-bottom: 42px;
-
 }
 .section-text{
   font-family: 'Urbanist', sans-serif;
@@ -147,7 +145,6 @@ img {
   margin: 32px 0 64px;
  }
 
- 
 .banner__btn{
   padding: 24px 40px;
  }
@@ -320,4 +317,39 @@ img {
   display: block;
   width: 252px;
   margin: 0 auto;
+}
+
+/* Discover */
+
+.discover-wrap{
+  display: flex;
+  justify-content: space-between;
+  background-color: #1C1814;
+  gap: 50px;
+  padding: 85px 80px;
+}
+
+.discover-img {
+  display: block;
+  margin: 0 auto;
+  max-height: 359px;
+}
+
+.discover{
+  max-width: 535px;
+}
+
+.discover-title{
+  text-align: left;
+  margin-bottom: 36px;
+}
+
+.discover-text{
+  font-weight: 500;
+}
+
+.discover__link {
+  display: block;
+  margin-top: 36px;
+  width: 215px;
 }
