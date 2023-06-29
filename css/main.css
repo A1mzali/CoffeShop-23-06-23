@@ -267,7 +267,6 @@ img {
   background-color: #121315;
   text-align: center;
   text-transform: uppercase;
-
 }
 
 .popular__img{
@@ -314,4 +313,11 @@ img {
   font-family: 'Inter', sans-serif;
   font: 18px;
   color: #C99E71;
+  font-weight: 700;
+}
+
+.popular__link {
+  display: block;
+  width: 252px;
+  margin: 0 auto;
 }
