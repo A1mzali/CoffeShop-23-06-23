@@ -353,3 +353,46 @@ img {
   margin-top: 36px;
   width: 215px;
 }
+
+/* Menu */
+
+#menu-section{
+  margin-top: 140px;
+}
+.menu-wrap{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 36px;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 48%;
+  padding: 24px;
+  border: 1px solid#32323D;
+}
+
+.menu__img {
+  width: 72px;
+  height: 72px;
+}
+
+.menu__title{
+  font-family: 'Righteous', cursive;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.menu__price{
+  display: block;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #C99E71;
+  margin-left: auto;
+}
