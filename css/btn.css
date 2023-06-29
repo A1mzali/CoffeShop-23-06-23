@@ -1,0 +1,54 @@
+button {
+  display: block;
+  border: none;
+  color: inherit;
+  font: inherit;
+  background-color: transparent;
+  transition: .4s;
+  cursor: pointer;
+}
+.btn-primary{
+  padding: 20px 36px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: 'Inter', sans-serif;
+  background-color: #C99E71;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.btn-primary:hover {
+  background-color: #796f63;
+}
+
+/* Popular */
+
+.popular__btn{
+  display: none;
+  justify-content: center;
+  gap: 15px;
+  width: 170px;
+  margin: 38px auto 0;
+  padding: 13px 0;
+  align-items: center;
+  text-transform: none;
+  transition: opacity 0.8s ease-in;
+
+  font-family: 'Urbanist', sans-serif; 
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.popular:hover .popular__btn {
+  display: flex;
+  
+
+}
+
+.popular:hover .rating,
+.popular:hover .popular__price{
+ display: none;
+ opacity: 1;
+}
