@@ -455,3 +455,54 @@ img {
  gap: 4px;
 
 }
+
+.testimonial-action,
+.testimonial-btn-wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonial-count{
+
+}
+
+.testimonial-count__text{
+  display: block;
+  color: #C99E71;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.testimonial-count__progress{
+  appearance: none;
+  width: 120px;
+  height: 4px;
+}
+
+.testimonial-count__progress::-webkit-progress-bar {
+  background-color: #2B2926;
+}
+.testimonial-count__progress::-webkit-progress-value {
+  background-color: #C99E71;
+}
+
+.testimonial-btn-wrap{
+  gap: 16px;
+}
+
+.testimonial-btn {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  cursor: default;
+}
+.active-btn-testimonial{
+  background-color: #C99E71; 
+  cursor: pointer;
+}
+
+.active-btn-testimonial:hover{
+  background-color: #796f63;
+}
