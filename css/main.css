@@ -61,6 +61,16 @@ img {
   text-transform: capitalize;
 }
 
+input {
+  display: block;
+  padding: 16px 20px;
+  border: none;
+  outline: none;
+  font: 600 18px/32px 'Urbanist', sans-serif;
+  background-color: #14110E;
+  opacity: 0.6;
+}
+
 /* HEADER */
 
 .container-header{
@@ -432,10 +442,6 @@ img {
   margin-top: 28px;
 }
 
-.testimonial-person{
-
-}
-
 .testimonial-name{
   display: block;
   margin-bottom: 4px;
@@ -453,7 +459,6 @@ img {
  align-self: flex-end;
  font-size: 20px;
  gap: 4px;
-
 }
 
 .testimonial-action,
@@ -461,10 +466,6 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.testimonial-count{
-
 }
 
 .testimonial-count__text{
@@ -505,4 +506,33 @@ img {
 
 .active-btn-testimonial:hover{
   background-color: #796f63;
+}
+
+/* Reservation */
+
+.reservation-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reservation-map {
+  width: 50%;
+  background: url(../img/reservation/map.jpg)50% 0/cover;
+  background-repeat: no-repeat;
+}
+
+.reservation{
+  width: 50%;
+  padding: 72px 48px;
+  background-color: #1C1814;
+}
+
+.reservation__input {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.reservation-btn {
+  width: 205px;
+  margin: 56px auto 0;
 }
